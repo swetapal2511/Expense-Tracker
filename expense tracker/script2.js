@@ -1,3 +1,7 @@
+// NOTE: This code uses localStorage, so all transactions are saved
+// and will remain available even after refreshing or reopening the page.
+
+
 let balance = 0;
 let totalIncome = 0;
 let totalExpense = 0;
@@ -80,4 +84,5 @@ function saveData() {
         transactions: transactions
     };
     localStorage.setItem("expenseTrackerData", JSON.stringify(data));
+
 }
