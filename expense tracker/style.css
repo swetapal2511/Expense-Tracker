@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.balance {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.summary-box {
+    display: flex;
+    justify-content:space-around;
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    /* gap: -2px; */
+}
+
+.spend-box {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.income-box {
+    width: 40%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.transaction-form input, button {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.transaction-form input:hover{
+    border: 1px solid blue;
+}
+
+
+.transaction-form button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%;
+    border-radius: 10px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 5px auto;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
