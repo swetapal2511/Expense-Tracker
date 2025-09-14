@@ -1,3 +1,9 @@
+
+// NOTE: This code does not persist transactions after page refresh.
+// All data will be lost because it is stored only in memory (no local storage used).
+
+
+
 let balance = 0;
 let totalIncome = 0;
 let totalExpense = 0;
@@ -46,4 +52,5 @@ function refreshForm(){
     document.getElementById("credit").value="";
     document.getElementById("debit").value="";
     document.getElementById("date").value="";
+
 }
